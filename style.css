@@ -13,7 +13,7 @@ header {
 }
 
 h1 {
-font-size: 36px;
+    font-size: 36px;
 }
 
 h2 {
@@ -24,21 +24,23 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
+
 nav a {
-color: white;
-text-decoration: none;
-background-color: #9b4d83
-padding: 10px 15px;
-border-radius: 8px;
-margin: 5px;
-display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #9b4d83 padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
 }
+
 nav a:hover {
     background-color: #c77dff;
 }
+
 main {
-width: 80%;
-margin: auto;
+    width: 80%;
+    margin: auto;
 }
 
 section {
@@ -47,6 +49,7 @@ section {
     padding: 20px;
     border-radius: 12px;
 }
+
 img {
     width: 100%;
     max-width: 600px;
@@ -54,12 +57,14 @@ img {
     margin: auto;
     border-radius: 12px;
 }
+
 figcaption {
     text-align: center;
     font-size: 14px;
     color: #555555;
     margin-top: 8px;
 }
+
 card {
     background-color: #f3d9fa;
     padding: 15px;
@@ -71,6 +76,7 @@ card {
 card h3 {
     margin-top: 0;
 }
+
 footer {
     background-color: #222222;
     color: white;
