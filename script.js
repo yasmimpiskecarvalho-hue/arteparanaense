@@ -1,6 +1,16 @@
-const botao = document.querySelector("#botaoMensagem");
-const mensagem = document.querySelector("#mensagemInterativa");
-function mostrarMensagem() {
-    mensagem.textContent = 
-    "Você acabou de criar uma interação com o Javascript";
+const botoesCurtir = document.querySelectorA11(".curtir");
+botoesCurtir.forEach(function(botaoCurtir){
+    let curtiu = false;
+    botaoCurtir.addEventListener("click", curtir);
+function curtir(){
+    const contador = botaoCurtir.querySelector("span");
+    if(curtiu === false){
+            contador.textContent++;
+            curtiu = true;}
+            else{
+                contador.textContent--;
+                curtiu = false;
+            
+            }
 }
+});
