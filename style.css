@@ -1,7 +1,15 @@
 
 :root{
-    --cor-fundo: rgb(221, 197, 169);
-    --cor-texto: black;
+    --cor-fundo: rgb(241, 229, 215);
+    --cor-texto: rgb(36, 35, 35);
+    --cor-principal: rgb(20, 43, 87);
+    --cor-secundaria: rgb(37, 69, 138);
+    --cor-hover: rgb(22, 64, 153);
+    --cor-superficie: rgb(226, 223, 215);
+    --cor-card: rgba(96, 131, 196, 0.856);
+    --cor-legenda: #423e3e;
+    --cor-clara: white;
+    --cor-rodape: #2e2c2c;
 }
 body {
     background-color: var(--cor-fundo)
